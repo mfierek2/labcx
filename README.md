@@ -4,6 +4,7 @@ Laboratorium C 2016/17
 	S. Sokołowski
 	[Języki programowania, rok 1]
 	~ https://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/
+sprawic, aby to działało co nie? 
 ##[Laboratorium 01]  (/lab01):
 
  	- [x] zad01.c (lab01/zad01)
