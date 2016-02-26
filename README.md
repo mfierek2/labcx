@@ -9,6 +9,6 @@ S. Sokołowski
  	* [x] [zad01.c](lab01/zad01.c)
 	* [x] [zad02.c](lab01/zad02.c)
 	* [x] [zad03.c](lab01/zad03.c)
-	* [ ] [zad04.c](lab01/zad04.c)
+	* [x] [zad04.c](lab01/zad04.c)
 	* [ ] [zad05.c](lab01/zad05.c)
 	* [ ] [zad06.c](lab01/zad06.c)
