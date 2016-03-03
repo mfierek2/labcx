@@ -10,4 +10,4 @@ LDLIBS = -lm
 clean :
 	-$(RM) $(objects) $(programs) *~
 
-all : $(programs)
+all : ./$(programs)
