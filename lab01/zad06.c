@@ -32,7 +32,8 @@ void frag_two() {
   int i;
   for ( i = 0; i < N; a[i++] = i);
   for ( i = 0; i < N; ++i )
-    printf("%d \n", a[i]);
+    printf("%d ", a[i]);
+  printf("\n");
 }
 
 // w funkcji frag_three występuje identyczny problem
@@ -47,12 +48,17 @@ void frag_three() {
   int i;
   for ( i = 0; i < N; a[++i] = i);
   for ( i = 0; i < N; ++i )
-    printf("%d\n", a[i]);
-
+    printf("%d", a[i]);
+  printf("\n");
 }
 
+// znów napotykamy problem z kolejnością,
+// na moim komputrze, i w każej kolejnej iteracji jest
+// mnożone razy 2, w tym przypadku jest to normalne działnie programu
+// gdyż operator '()' ma wyższy priorytet od '<'
+
 void frag_four() {
-  printf("for (i=0; i<N; a[++i]=i);\n");
+  printf("while (( i *= 2 ) < N);\n");
   int i = 1;
   while (( i *= 2 ) < N)
     printf("Cos i wartosc i = %d \n", i );
