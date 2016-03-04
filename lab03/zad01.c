@@ -6,16 +6,23 @@
 
 #include <stdio.h>
 #include <limits.h>
+#include <float.h>
 
 int main() {
   int i = 0;
   int j = 0;
+  int k = 0;
+  //char types[] = {SHRT_MIN, SHRT_MAX, INT_MIN,INT_MAX} ;
   for( j = 0; j < 10; ++j) {
     for ( i = 0; i < 50; ++i) {
-      if(i % 10 == 0)
+      if(i % 10 == 0) {
         printf("|");
+      }
       else if (j % 2 == 0)
         printf("-");
+
+      else
+        printf(" ");
     }
     printf("\n");
   }
