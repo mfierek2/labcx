@@ -8,7 +8,15 @@
 #include <limits.h>
 
 int main() {
-    printf("%d",INT_MIN );
-    printf("%d", INT_MAX);
-
+  int i = 0;
+  int j = 0;
+  for( j = 0; j < 10; ++j) {
+    for ( i = 0; i < 50; ++i) {
+      if(i % 10 == 0)
+        printf("|");
+      else if (j % 2 == 0)
+        printf("-");
+    }
+    printf("\n");
+  }
 }
