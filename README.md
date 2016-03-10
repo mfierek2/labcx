@@ -23,7 +23,7 @@ S. Sokołowski
 	* [x] [zad01.c](lab03/zad01.c)
 	* [ ] [zad02.c](lab03/zad02.c)
 	* [ ] [zad03.c](lab03/zad03.c)
-	* [ ] [zad04.c](lab03/zad04.c) 
+	* [ ] [zad04.c](lab03/zad04.c)
 
 	**Tabelka z zadania nr 1 :**
 
@@ -37,3 +37,6 @@ S. Sokołowski
 	|DOUBLE       |        2.225074e-308|        1.797693e+308|     2.220446e-16|                15|  %lf lub %le   |
 	|LONG DOUBLE  |       3.362103e-4932|       1.189731e+4932|     1.084202e-19|                18|   %Lf lub %Le  |
 
+  4. [Laboratorium 04] (/lab04)
+  	* [ ] [zad01.c](lab04/zad01.c)
+  	* [ ] [zad02.c](lab04/zad02.c)
