@@ -18,6 +18,7 @@ S. Sokołowski
    	* [x] [zad01.c](lab02/zad01.c)
   	* [ ] [zad02.c](lab02/zad02.c)
   	* [ ] [zad03.c](lab02/zad03.c)
+    
 3. [Laboratorium 03] (/lab03)
 
 |    TYP      |       MINIMUM       |       MAXIMUM       |      ZIARNO     |      PRECYZJA    |      WE/WY     |
