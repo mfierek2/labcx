@@ -9,10 +9,11 @@
 #include <float.h>
 
 int main() {
+  int max_l = 21;
   printf("|    TYP      |       MINIMUM       |       MAXIMUM       |      ZIARNO     |      PRECYZJA    |      WE/WY     |\n");
   printf("|-------------|---------------------|---------------------|-----------------|------------------|----------------|\n");
-  printf("|SHORT        |%21i|%21i|                 |                  |       %%i       |\n",SHRT_MIN, SHRT_MAX);
-  printf("|INTEGER      |%21i|%21i|                 |                  |       %%i       |\n",INT_MIN, INT_MAX);
+  printf("|SHORT        |%*i|%*i|                 |                  |       %%i       |\n", max_l, SHRT_MIN, max_l, SHRT_MAX);
+  printf("|INTEGER      |%*i|%*i|                 |                  |       %%i       |\n", max_l ,INT_MIN, max_l , INT_MAX);
   printf("|LONG         |%21li|%21li|                 |                  |       %%li      |\n",LONG_MIN, LONG_MAX);
   printf("|LONG LONG    |%21lli|%21lli|                 |                  |       %%lli     |\n",LLONG_MIN, LLONG_MAX);
   printf("|FLOAT        |%21e|%21e|%17le|%18d|   %%f lub %%e    |\n",FLT_MIN,FLT_MAX ,FLT_EPSILON ,FLT_DIG);
