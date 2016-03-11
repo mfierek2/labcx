@@ -37,6 +37,6 @@ S. Sokołowski
 	|DOUBLE       |        2.225074e-308|        1.797693e+308|     2.220446e-16|                15|  %lf lub %le   |
 	|LONG DOUBLE  |       3.362103e-4932|       1.189731e+4932|     1.084202e-19|                18|   %Lf lub %Le  |
 
-  4. [Laboratorium 04] (/lab04)
+ 4. [Laboratorium 04] (/lab04)
   	* [ ] [zad01.c](lab04/zad01.c)
   	* [ ] [zad02.c](lab04/zad02.c)
