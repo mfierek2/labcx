@@ -19,40 +19,37 @@ int szyfruj(int x) {
 }
 
 
-int do_liczby (int ile,int zn[] ) {
-  unsigned int liczba;
-  int i;
-  int pos = 24;
-  for ( i = 0; i < 4; ++i, pos = pos - 8 ) {
-    liczba |= (zn[i] << pos );
-    if(i == 3) {
-      liczba |= zn[i];
-    }
-  }
+unsigned int do_liczby (int zn[] ) {
+  unsigned int liczba = 0;
+  liczba |= ( zn[0] << 24);
+  liczba |= ( zn[1] << 16);
+  liczba |= ( zn[2] << 8);
+  liczba |= zn[3];
   return liczba;
+}
+void z_liczby( char zn[], unsigned int liczba) {
+    zn[0] = (liczba & 0xFF000000);
+    zn[1] = (liczba & 0x00FF0000);
+    zn[2] = (liczba & 0x0000FF00);
+    zn[3] = (liczba & 0x000000FF);
 }
 
 int main() {
 
   char bufor[1000];
-  int do_szyfr[4];
-  int za_szyfr[1000];
-  int i = 0;
+  char do_szyfr[4];
+  unsigned int za_szyfr[1000];
+  int i;
   int n = 0;
-  int k = 0;
   while ( (bufor[i] = getchar()) != EOF ) i++;
   i = 0;
-  while ( (bufor[i] != EOF )) {
-    if (n < 4) {
+    for(i = 0; i < sizeof(bufor)/sizeof(char) ; n++,i++) {
       do_szyfr[n] = bufor[i];
-      n++;
+      if( n == 3) {
+        n = 0;
+        for()
+        printf("%u",szyfruj(do_liczby(do_szyfr[]));
+      }
     }
-    else {
-      za_szyfr[k] = szyfruj(do_liczby(4,do_szyfr));
-      k++;
-      n = 0;
-      printf("%i \n", za_szyfr[k-1]);
-    }
-    i++;
   }
 }

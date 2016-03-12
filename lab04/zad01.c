@@ -1,3 +1,6 @@
+// Program wykonuje działana na liczbach ZESPOLONYCH
+// wersja bez użycia biblioteki complex.h
+
 #include<stdio.h>
 #include<math.h>
 #include<ctype.h>
@@ -68,24 +71,37 @@ void  zesp_print (zespol z) { // drukowanie liczby zespolonej
 /****************************************************************/
 // DZIALANIA:
 
-zespol  zesp_dodac (zespol z1, zespol z2);
-  // dodawanie liczb zespolonych
+zespol  zesp_dodac (zespol z1, zespol z2) {
+  zespol wynik;
+  wynik.rea = z1.rea + z2.rea;
+  wynik.ima = z1.ima + z2.ima;
+  return wynik;
+}
 
-zespol  zesp_odjac (zespol z1, zespol z2);
-  // odejmowanie liczb zespolonych
+zespol  zesp_odjac (zespol z1, zespol z2){
+  zespol wynik;
+  wynik.rea = z1.rea - z2.rea;
+  wynik.ima = z1.ima - z2.ima;
+  return wynik;
+}
 
-zespol  zesp_razy (zespol z1, zespol z2);
-  // mnozenie liczb zespolonych
+zespol  zesp_razy (zespol z1, zespol z2) {
+  zespol wynik;
+  wynik.rea = z1.rea * z2.rea;
+  wynik.ima = z1.ima * z2.ima;
+  return wynik;
+}
 
-zespol  zesp_sprzez (zespol z);
-  // liczba sprzezona do danej zespolonej
+zespol  zesp_sprzez (zespol z) {
+  zespol spr;
+  spr.rea = z.rea;
+  spr.ima = z.ima * (-1);
+  return spr;
+}
 
-double  zesp_abs (zespol z);
-  // wartosc bezwzgledna liczby zespolonej
-
-/****************************************************************/
-
-
+double  zesp_abs (zespol z) {
+  return sqrt(pow(z.rea,2)+pow(z.ima,2));
+}
 int main () {
   zespol  z1, z2;
 
@@ -95,6 +111,7 @@ int main () {
   printf("\n z1+z2 == "); zesp_print(zesp_dodac(z1, z2));
   printf("\n z1-z2 == "); zesp_print(zesp_odjac(z1, z2));
   printf("\n z1*z2 == "); zesp_print(zesp_razy(z1, z2));
+  printf("\n z1 == "); zesp_print(zesp_sprzez(z1));
   printf("\n |z1+z2| == %.4lf\n\n", zesp_abs(zesp_dodac(z1, z2)));
   return 0;
 }
