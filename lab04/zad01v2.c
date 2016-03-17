@@ -26,21 +26,21 @@ int main () {
 
     printf("Dzialania na liczbach zespolonych:\n\v");
 
-    printf("Wartosci poczatkowe : Z1 = %.2f + %.2fi\tZ2 = %.2f %+.2fi\n", creal(z1), cimag(z1), creal(z2), cimag(z2));
+    printf("Wartosci poczatkowe : Z1 = %.2f + %.2fi\tZ2 = %.2f %+.2fi\n\v", creal(z1), cimag(z1), creal(z2), cimag(z2));
 
     double complex sum = z1 + z2;
-    printf("Z1 + Z2 = %.2f %+.2fi\n", creal(sum), cimag(sum));
+    printf("Z1 + Z2 = %.2f %+.2fi\n\v", creal(sum), cimag(sum));
 
     double complex minus = z1 - z2;
-    printf(" Z1 - Z2 = %.2f %+.2fi\n", creal(minus), cimag(minus));
+    printf("Z1 - Z2 = %.2f %+.2fi\n\v", creal(minus), cimag(minus));
 
     double complex mnoz = z1 * z2;
-    printf("The product: Z1 x Z2 = %.2f %+.2fi\n", creal(mnoz), cimag(mnoz));
+    printf("Z1 x Z2 = %.2f %+.2fi\n\v", creal(mnoz), cimag(mnoz));
 
     double complex dziel = z1 / z2;
-    printf("The quotient: Z1 / Z2 = %.2f %+.2fi\n", creal(dziel), cimag(dziel));
+    printf("Z1 / Z2 = %.2f %+.2fi\n\v", creal(dziel), cimag(dziel));
 
     double complex spr = conj(z1);
-    printf("The conjugate of Z1 = %.2f %+.2fi\n", creal(spr), cimag(spr));
+    printf("Sprzezenie Z1 = %.2f %+.2fi\n\v", creal(spr), cimag(spr));
 
 }
