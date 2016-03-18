@@ -40,4 +40,5 @@ S. Sokołowski
 
 4. [Laboratorium 04] (/lab04)
   	* [x] [zad01.c](lab04/zad01.c) - deprecated conversion from string constant to 'char*'
-  	* [ ] [zad02.c](lab04/zad02.c)
+    * [x] [zad01v2.c](lab04/zad01v2.c)
+    * [ ] [zad02.c](lab04/zad02.c)
