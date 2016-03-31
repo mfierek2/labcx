@@ -46,4 +46,10 @@ S. Sokołowski
 
 5. [Laboratorum 05] (/lab05)
     * [x] [zad01.c](lab05/zad01.c)
-    * [ ] [zad02.c](lab05/zad02.c)
+    * [x] [zad02.c](lab05/zad02.c)
+
+6. [Laboratorum 06] (/lab06)
+    * [x] [zad01.c](lab06/zad01.c)
+    * [ ] [zad02.c](lab06/zad02.c)
+    * [ ] [zad03.c](lab06/zad03.c)
+    
