@@ -17,7 +17,8 @@ S. Sokołowski
 
    	* [x] [zad01.c](lab02/zad01.c)
   	* [x] [zad02.c](lab02/zad02.c)
-  	* [ ] [zad03.c](lab02/zad03.c)
+  	* [x] [zad03A.c](lab02/zad03A.c)
+  	* [x] [zad03B.c](lab02/zad03B.c)
 
 3. [Laboratorium 03] (/lab03)
 	* [x] [zad01.c](lab03/zad01.c)
