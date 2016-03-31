@@ -22,9 +22,9 @@ S. Sokołowski
 
 3. [Laboratorium 03] (/lab03)
 	* [x] [zad01.c](lab03/zad01.c)
-	* [ ] [zad02.c](lab03/zad02.c)
-	* [ ] [zad03.c](lab03/zad03.c)
-	* [ ] [zad04.c](lab03/zad04.c)
+	* [x] [zad02.c](lab03/zad02.c)
+	* [x] [zad03.c](lab03/zad03.c)
+	* [x] [zad04.c](lab03/zad04.c)
 
 	**Tabelka z zadania nr 1 :**
 
@@ -41,7 +41,8 @@ S. Sokołowski
 
 4. [Laboratorium 04] (/lab04)
   	* [x] [zad01.c](lab04/zad01.c) - deprecated conversion from string constant to 'char*'
-    * [x] [zad01v2.c](lab04/zad01v2.c)
+    * [x] [zad01v2.c](lab04/zad01v2.c) - with complex.h
     * [ ] [zad02.c](lab04/zad02.c)
+
 5. [Laboratorum 05] (/lab05)
     * [x] [zad01.c](lab05/zad01.c)
