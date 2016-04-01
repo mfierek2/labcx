@@ -18,6 +18,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
+#include<stdlib.h>
 
 #define IMIE_MAX 10
 #define NAZW_MAX 15
@@ -47,17 +48,21 @@ void  utworz_spis(void) {
 }
 
 //=======================================================
-
-void  sortuj_spis(void) {
-	for(int i=1; i <= IL_OSOB; ++i) {
-		if(strcmp(spis[i-1].nazwisko,spis[i].nazwisko) == 0);
-
-	}
-}
+// co tu się dzieje?
+//int compare(const void* a, const void* b) {
+//    return strcmp(*(osoba**)a, *(osoba**)b);
+//}
 
 //=======================================================
 
-int  znajdz_nazwisko (char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
+
+//void  sortuj_spis() {
+//  qsort ( spis, IL_OSOB, sizeof(osoba), compare);
+//}
+
+//=======================================================
+
+int  znajdz_nazwisko (char *na, char *im, int *p)
 {
 
 	for(int i = 0; i < IL_OSOB; ++i){
@@ -73,7 +78,7 @@ int  znajdz_nazwisko (char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
 
 //=======================================================
 
-int  znajdz_imie (char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
+int  znajdz_imie (char *im, char *na, int *p)
 {
 
 	for( int i = 0; i < IL_OSOB; ++i ){
@@ -92,7 +97,7 @@ int main () {
   char odpowiedz, im[NAZW_MAX+1], na[IMIE_MAX+1];
   int p;
 
-  utworz_spis(); sortuj_spis();
+  utworz_spis(); //sortuj_spis();
 
   do {
     printf(
