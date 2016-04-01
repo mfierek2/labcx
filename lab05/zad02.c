@@ -77,7 +77,7 @@ int  znajdz_nazwisko (char *na, char *im, int *p)
 }
 
 //=======================================================
-
+//połaczyć znajdz nazwisko i znajdz imie
 int  znajdz_imie (char *im, char *na, int *p)
 {
 
