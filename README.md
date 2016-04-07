@@ -1,5 +1,4 @@
-##labcx
-Laboratorium C, 2016/17
+## Laboratorium Języka C, 2016/17
 
 S. Sokołowski
 [Języki programowania, rok 1](https://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
@@ -13,14 +12,14 @@ S. Sokołowski
 	* [x] [zad05.c](lab01/zad05.c)
 	* [x] [zad06.c](lab01/zad06.c) - warning [-Wsequence-point ]
 
-2. [Laboratorium 02]  (/lab03):
+1. [Laboratorium 02]  (/lab03):
 
    	* [x] [zad01.c](lab02/zad01.c)
   	* [x] [zad02.c](lab02/zad02.c)
   	* [x] [zad03A.c](lab02/zad03A.c)
   	* [x] [zad03B.c](lab02/zad03B.c)
 
-3. [Laboratorium 03] (/lab03)
+1. [Laboratorium 03] (/lab03)
 	* [x] [zad01.c](lab03/zad01.c)
 	* [x] [zad02.c](lab03/zad02.c)
 	* [x] [zad03.c](lab03/zad03.c)
@@ -39,16 +38,16 @@ S. Sokołowski
 	|LONG DOUBLE  |       3.362103e-4932|       1.189731e+4932|     1.084202e-19|                18|   %Lf lub %Le  |
 
 
-4. [Laboratorium 04] (/lab04)
-  	* [x] [zad01.c](lab04/zad01.c) - deprecated conversion from string constant to 'char*'
+1. [Laboratorium 04](/lab04)
+  	* [x] [zad01.c](lab04/zad01.c) - ostrzeżenie -Wreturn-type
     * [x] [zad01v2.c](lab04/zad01v2.c) - with complex.h
     * [x] [zad02.c](lab04/zad02.c) - z wykorzystaniem procedur z zad01 w wersji bez biblioteki complex.h
 
-5. [Laboratorum 05] (/lab05)
+1. [Laboratorum 05] (/lab05)
     * [x] [zad01.c](lab05/zad01.c)
-    * [x] [zad02.c](lab05/zad02.c) - ostrzerzenie -Wreturn-type
+    * [x] [zad02.c](lab05/zad02.c) - ostrzeżenie -Wreturn-type
 
-6. [Laboratorum 06] (/lab06)
-    * [x] [zad01.c](lab06/zad01.c)
+1. [Laboratorum 06] (/lab06)
+    * [x] [zad01.c](lab06/zad01.c) ostrzeżnie -Wwrite-strings
     * [ ] [zad02.c](lab06/zad02.c)
     * [ ] [zad03.c](lab06/zad03.c)
