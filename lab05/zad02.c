@@ -36,8 +36,7 @@ osoba spis[IL_OSOB];
 
 void  utworz_spis(void) {
   FILE* baza =
-    fopen("/home/pracinf/stefan/public_html/Dydaktyka/JezProg/Slajdy/Labs05/baza_danych",
-  "r");
+    fopen("mBaza","r");
   if (baza == NULL) printf("\n ZLE\n\n");
   for (int i=0; i<IL_OSOB; i++) {
     fscanf(baza, "%s", spis[i].imie);
@@ -48,20 +47,56 @@ void  utworz_spis(void) {
 }
 
 //=======================================================
-// co tu się dzieje?
-//int compare(const void* a, const void* b) {
-//    return strcmp(*(osoba**)a, *(osoba**)b);
-//}
 
+int compare(const void *s1, const void *s2, void *arg)
+  {
+    osoba *o1 = (osoba *)s1;
+    osoba *o2 = (osoba *)s2;
+    int *n = (int *)arg;
+    switch ( *n ) {
+      case 1:
+        return strcmp(o1 -> nazwisko, o2 -> nazwisko);
+        break;
+      case 2:
+        return strcmp(o1 -> imie, o2 -> imie);
+        break;
+      case 3:
+        if ( o1 -> pensja > o2 -> pensja) {
+          return -1;
+        }
+        break;
+      default:
+      break;
+    }
+}
+// powyzsza funkcja generuje ostrzerzenie -Wreturn-type
 //=======================================================
 
 
-//void  sortuj_spis() {
-//  qsort ( spis, IL_OSOB, sizeof(osoba), compare);
-//}
+void  sortuj_spis() {
+  int opcja;
+  printf("Jak chcesz posortować spis? : \n");
+  scanf("%d",&opcja);
+  qsort_r ( spis, IL_OSOB, sizeof(osoba), compare, &opcja);
+}
 
 //=======================================================
+void spis_do_pliku() {
 
+
+  FILE *fp = fopen("posortowany", "w");
+
+  if( !fp ) {
+    printf("Błąd odczytu pliku");
+  }
+    for( int i = 0; i < IL_OSOB; ++i) {
+      if(spis[i].pensja)
+        fprintf(fp,"%s %s %i\n",spis[i].imie, spis[i].nazwisko, spis[i].pensja);
+      else continue;
+    }
+  fclose(fp);
+}
+//=======================================================
 int  znajdz_nazwisko (char *na, char *im, int *p)
 {
 
@@ -72,7 +107,6 @@ int  znajdz_nazwisko (char *na, char *im, int *p)
 		return 1;
 		}
 	}
-
 	return 0;
 }
 
@@ -97,7 +131,7 @@ int main () {
   char odpowiedz, im[NAZW_MAX+1], na[IMIE_MAX+1];
   int p;
 
-  utworz_spis(); //sortuj_spis();
+  utworz_spis(); sortuj_spis();spis_do_pliku();
 
   do {
     printf(
