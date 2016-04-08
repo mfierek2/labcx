@@ -75,7 +75,7 @@ int compare(const void *s1, const void *s2, void *arg)
 
 void  sortuj_spis() {
   int opcja;
-  printf("Jak chcesz posortować spis? : \n");
+  printf("Jak chcesz posortować spis? (1) imie, (2) nazwisko, (3) pensja : \n");
   scanf("%d",&opcja);
   qsort_r ( spis, IL_OSOB, sizeof(osoba), compare, &opcja);
 }
