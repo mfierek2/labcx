@@ -34,9 +34,9 @@ osoba spis[IL_OSOB];
 
 //=======================================================
 
-void  utworz_spis(void) {
+void  utworz_spis(char *nazwa) {
   FILE* baza =
-    fopen("mBaza","r");
+    fopen(nazwa,"r");
   if (baza == NULL) printf("\n ZLE\n\n");
   for (int i=0; i<IL_OSOB; i++) {
     fscanf(baza, "%s", spis[i].imie);
@@ -127,11 +127,10 @@ int  znajdz_imie (char *im, char *na, int *p)
 
 //=======================================================
 
-int main () {
+int main (int argc, char *argv[]) {
   char odpowiedz, im[NAZW_MAX+1], na[IMIE_MAX+1];
   int p;
-
-  utworz_spis(); sortuj_spis();spis_do_pliku();
+  utworz_spis(argv[1]); sortuj_spis();spis_do_pliku();
 
   do {
     printf(
