@@ -68,8 +68,9 @@ int compare(const void *s1, const void *s2, void *arg)
       default:
       break;
     }
+    return 2;
 }
-// powyzsza funkcja generuje ostrzerzenie -Wreturn-type
+// powyzsza funkcja generuje bez instrukcji return 2; ostrzerzenie -Wreturn-type
 //=======================================================
 
 
@@ -99,7 +100,7 @@ void spis_do_pliku() {
 //=======================================================
 int  znajdz_nazwisko (char *na, char *im, int *p)
 {
-
+  // bsearch (&na, spis.nazwisko, sizeof(spis.nazwisko),  )
 	for(int i = 0; i < IL_OSOB; ++i){
 		if(strcmp( spis[i].nazwisko, na) == 0){
 		strcpy( im, spis[i].imie );

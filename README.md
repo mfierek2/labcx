@@ -51,3 +51,4 @@ S. Sokołowski
     * [x] [zad01.c](lab06/zad01.c) ostrzeżnie -Wwrite-strings
     * [ ] [zad02.c](lab06/zad02.c)
     * [ ] [zad03.c](lab06/zad03.c)
+Ə••
