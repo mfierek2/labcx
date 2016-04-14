@@ -14,7 +14,10 @@
 
 // W pierwszej wersji można nie realizować funkcji sortuj_spis, a wyszukiwanie zorganizować jakkolwiek.
 //  W drugiej (lepszej) wersji zrobić funkcję sortuj_spis i w wyszukiwaniu wg nazwisk wykorzystać fakt, że spis jest uporządkowany.
-
+// baza jako argument...
+// bsearch
+// rozwiazac powtarzanie się rekordów !!!
+// binki pointer
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -76,7 +79,7 @@ int compare(const void *s1, const void *s2, void *arg)
 
 void  sortuj_spis() {
   int opcja;
-  printf("Jak chcesz posortować spis? : \n");
+  printf("Jak chcesz posortować spis? (1) nazwisko, (2) imie, (3) pensja : \n");
   scanf("%d",&opcja);
   qsort_r ( spis, IL_OSOB, sizeof(osoba), compare, &opcja);
 }
