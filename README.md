@@ -45,7 +45,7 @@ S. Sokołowski
 
 1. [Laboratorum 05] (/lab05)
     * [x] [zad01.c](lab05/zad01.c)
-    * [x] [zad02.c](lab05/zad02.c) - ostrzeżenie -Wreturn-type
+    * [x] [zad02.c](lab05/zad02.c) 
 
 1. [Laboratorum 06] (/lab06)
     * [x] [zad01.c](lab06/zad01.c) ostrzeżnie -Wwrite-strings
