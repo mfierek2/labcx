@@ -2,7 +2,8 @@
 
 S. Sokołowski
 [Języki programowania, rok 1](https://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
-
+W. Bzyl
+[Link](http://wbzyl.inf.ug.edu.pl/rails2/jp)
 1. [Laboratorium 01]  (/lab01):
 
  	* [x] [zad01.c](lab01/zad01.c)
@@ -45,7 +46,7 @@ S. Sokołowski
 
 1. [Laboratorum 05] (/lab05)
     * [x] [zad01.c](lab05/zad01.c)
-    * [x] [zad02.c](lab05/zad02.c) 
+    * [x] [zad02.c](lab05/zad02.c)
 
 1. [Laboratorum 06] (/lab06)
     * [x] [zad01.c](lab06/zad01.c) ostrzeżnie -Wwrite-strings

@@ -14,14 +14,16 @@
 
 // W pierwszej wersji można nie realizować funkcji sortuj_spis, a wyszukiwanie zorganizować jakkolwiek.
 //  W drugiej (lepszej) wersji zrobić funkcję sortuj_spis i w wyszukiwaniu wg nazwisk wykorzystać fakt, że spis jest uporządkowany.
-// baza jako argument...
 // bsearch
 // rozwiazac powtarzanie się rekordów !!!
 // binki pointer
+// nazwa pliku do, ktorego będą zapisane wyniki.
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
+
+
 
 #define IMIE_MAX 10
 #define NAZW_MAX 15
