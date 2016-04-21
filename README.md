@@ -51,5 +51,7 @@ W. Bzyl
 
 1. [Laboratorum 06] (/lab06)
     * [x] [zad01.c](lab06/zad01.c) ostrzeżnie -Wwrite-strings
-    * [ ] [zad02.c](lab06/zad02.c)
+    * [x] [zad02.c]:
+        *  [glowny.c](lab06/glowny.c)
+        *  [funkce.c](lab06/funkcje.c) - [-Wwrite-strings](http://stackoverflow.com/questions/1524356/c-deprecated-conversion-from-string-constant-to-char)
     * [ ] [zad03.c](lab06/zad03.c)
