@@ -6,6 +6,8 @@ objects = $(addsuffix .o, $(programs))
 CFLAGS = -Wall -std=c11
 LDLIBS = -lm
 
+zad01 :
+	cc zad01.c $(CFLAGS) $(LDLIBS)
 glowny.o : glowny.c
 	cc -c glowny.c -o glowny.o $(CFLAGS) $(LDLIBS)
 funkcje.o : funkcje.c
