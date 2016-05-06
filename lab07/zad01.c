@@ -1,5 +1,7 @@
 // program którego wywołanie z argumentami spowoduje
 // wypisanie tych argumentów w odwrotnej kolejności
+//  napisać funkcję drukujaca argumenty podane do programu na trzy sposoby.
+// uzględnić separator. 
 #include <stdio.h>
 
 int main (int argc, char *argv[])
