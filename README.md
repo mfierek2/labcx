@@ -55,3 +55,7 @@ W. Bzyl
         *  [glowny.c](lab06/glowny.c)
         *  [funkcje.c](lab06/funkcje.c) - [-Wwrite-strings](http://stackoverflow.com/questions/1524356/c-deprecated-conversion-from-string-constant-to-char)
     * [ ] [zad03.c](lab06/zad03.c)
+1. [Laboratorum 07] (/lab07)
+    * [x] [zad01.c](lab07/zad01.c)
+    * [x] [zad02.c](lab07/zad2i3.c)
+    * [x] [zad03.c](lab07/zad2i3.c)
