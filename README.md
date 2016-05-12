@@ -59,7 +59,6 @@ W. Bzyl
 1. [Laboratorum 07] (/lab07)
     * [x] [zad01.c](lab07/zad01.c) ostrzeżnie -Wwrite-strings
     * [x] [zad2i3.c](lab07/zad2i3.c)
-  )
 
 1. [Laboratorum 08] (/lab08)
     * [x] [zad01.c](lab08/zad01.c)
