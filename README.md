@@ -56,15 +56,17 @@ W. Bzyl
         *  [funkce.c](lab06/funkcje.c) - [-Wwrite-strings](http://stackoverflow.com/questions/1524356/c-deprecated-conversion-from-string-constant-to-char)
     * [ ] [zad03.c](lab06/zad03.c)
     1. [Laboratorum 07] (/lab07)
-        * [x] [zad01.c](lab07/zad01.c) ostrzeżnie
+        * [x] [zad01.c](lab07/zad01.c) ostrzeżnie -Wwrite-strings
+        * [x] [zad02.c](lab07/zad02.c)
+        * [x] [zad03.c](lab07/zad03.c)
     1. [Laboratorum 08] (/lab08)
-            * [x] [zad01.c](lab08/zad01.c)
-            * [x] [zad02.c](lab08/zad02.c)
-            * [x] [zad03.c](lab08/zad03.c)
-            * [x] [zad04.c](lab08/zad04.c)
+        * [x] [zad01.c](lab08/zad01.c)
+        * [x] [zad02.c](lab08/zad02.c)
+        * [x] [zad03.c](lab08/zad03.c)
+        * [x] [zad04.c](lab08/zad04.c)
     1. [Laboratorum 09] (/lab09)
        * [x] [zad01.php](lab09/zad01.php)
        * [x] [zad02.php](lab09/zad02.php)
        * [x] [zad03.php](lab09/zad03.php)
-    Skrypty można zobaczyć w akcji na moje stronie: [link](sigma.ug.edu.pl/~mfierek/zadania.html)
+  Skrypty można zobaczyć w akcji na moje stronie: [link](sigma.ug.edu.pl/~mfierek/zadania.html)
     
