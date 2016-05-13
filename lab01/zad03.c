@@ -44,5 +44,4 @@ int main() {
   dziwneFor(tab,ROZMIAR);
   sprPostAndPre(tab,A);
   aryt(X);
-  return 0;
 }
