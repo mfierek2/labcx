@@ -36,6 +36,4 @@ int main () {
     print_ch(decrypt(n));
     read = scanf("%i", &n);
   }
-  //  printf("\n");
-  return 0;
 }
