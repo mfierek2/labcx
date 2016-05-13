@@ -113,5 +113,4 @@ int main () {
   printf("\n z1*z2 == "); zesp_print(zesp_razy(z1, z2));
   printf("\n z1 == "); zesp_print(zesp_sprzez(z1));
   printf("\n |z1+z2| == %.4lf\n\n", zesp_abs(zesp_dodac(z1, z2)));
-  return 0;
 }
