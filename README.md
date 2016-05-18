@@ -71,6 +71,8 @@ W. Bzyl
     * [x] [zad02.php](lab09/zad02.php)
     * [x] [zad03.php](lab09/zad03.php)
 
- Skrypty można zobaczyć w akcji na moje stronie: 
+ Skrypty można zobaczyć w akcji na moje stronie:
 http://sigma.ug.edu.pl/~mfierek/zadania.html
-    
+
+1. [Laboratorium 15] (lab15)
+   * [x] [zad4.c](lab15/zad4.c)
