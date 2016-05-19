@@ -61,7 +61,7 @@
     * [ ] [zad03.c](lab06/zad03.c)
 
 1. [Laboratorum 07] (/lab07)
-    * [x] [zad01.c](lab07/zad01.c) ostrzeżnie -Wwrite-strings
+    * [x] [zad01.c](lab07/zad01.c) dodano funkcję print_array()
     * [x] [zad2i3.c](lab07/zad2i3.c)
 
     Część tabelki wygenerowanej za pomocą programu z zad2/3:
