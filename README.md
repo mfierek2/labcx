@@ -1,9 +1,13 @@
 ## Laboratorium Języka C, 2016/17
 
-S. Sokołowski
+*dr S. Sokołowski:*
 [Języki programowania, rok 1](https://inf.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
-W. Bzyl
+
+*dr W. Bzyl:*
 [Link](http://wbzyl.inf.ug.edu.pl/rails2/jp)
+
+*Moja stona:*
+[Link](http://sigma.ug.edu.pl/~mfierek/zadania.html)
 
 1. [Laboratorium 01]  (/lab01):
 
@@ -14,7 +18,7 @@ W. Bzyl
 	* [x] [zad05.c](lab01/zad05.c)
 	* [x] [zad06.c](lab01/zad06.c) - warning [-Wsequence-point ]
 
-1. [Laboratorium 02]  (/lab03):
+1. [Laboratorium 02]  (/lab02):
 
    	* [x] [zad01.c](lab02/zad01.c)
   	* [x] [zad02.c](lab02/zad02.c)
@@ -70,9 +74,12 @@ W. Bzyl
     * [x] [zad01.php](lab09/zad01.php)
     * [x] [zad02.php](lab09/zad02.php)
     * [x] [zad03.php](lab09/zad03.php)
-
- Skrypty można zobaczyć w akcji na moje stronie:
-http://sigma.ug.edu.pl/~mfierek/zadania.html
+1. [Laboratorium 10] (/lab09)
+    * [] []()
+    * [] []()
+    * [] []()
+1. [Laboratorium 13] (/lab13)
+    * [x] [zad01.c](lab13/zad01.c)
 
 1. [Laboratorium 15] (lab15)
-   * [x] [zad4.c](lab15/zad4.c)
+    * [x] [zad4.c](lab15/zad4.c)
