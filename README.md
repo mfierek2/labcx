@@ -6,7 +6,7 @@
 *dr W. Bzyl:*
 [Link](http://wbzyl.inf.ug.edu.pl/rails2/jp)
 
-*Moja stona:*
+*Moja stona - można zobaczyć zadania z php w akcji:*
 [Link](http://sigma.ug.edu.pl/~mfierek/zadania.html)
 
 1. [Laboratorium 01]  (/lab01):
