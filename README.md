@@ -94,12 +94,20 @@
     * [x] [zad01.php](lab09/zad01.php)
     * [x] [zad02.php](lab09/zad02.php)
     * [x] [zad03.php](lab09/zad03.php)
+
 1. [Laboratorium 10] (/lab09)
-    * [] []()
-    * [] []()
-    * [] []()
+    * [ ] [zad01.php](lab10/zad01.php) - prawie gotowe
+    * [ ] [zad02.php](lab10/zad02.php)
+    * [ ] [zad03.php](lab10/zad03.php)
+
+1. [Laboratorium 11] (/lab13)
+
+1. [Laboratorium 12] (/lab13)
+
 1. [Laboratorium 13] (/lab13)
     * [x] [zad01.c](lab13/zad01.c)
 
-1. [Laboratorium 15] (lab15)
+1. [Laboratorium 14] (/lab13)
+
+1. [Laboratorium 15] (/lab15)
     * [x] [zad4.c](lab15/zad4.c)
