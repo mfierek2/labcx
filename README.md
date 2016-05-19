@@ -98,7 +98,7 @@
     * [x] [zad03.php](lab09/zad03.php)
 
 1. [Laboratorium 10] (/lab10)
-    * [ ] [zad01.php](lab10/zad01.php) - prawie gotowe
+    * [x] [zad01.php](lab10/zad01.php)
     * [ ] [zad02.php](lab10/zad02.php)
     * [ ] [zad03.php](lab10/zad03.php)
 
