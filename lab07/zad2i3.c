@@ -1,9 +1,10 @@
-// Proszę napisać program porzadkuj.c, którego wywołanie np. takie:   ./porzadkuj jedna_z_baz wynik_porzadkowania 
+// Proszę napisać program porzadkuj.c, którego wywołanie np. takie:   ./porzadkuj jedna_z_baz wynik_porzadkowania
 // posortuje wskazaną bazę jedna_z_baz (alfabetycznie wg nazwisk, a dla równych nazwisk wg imion)
 // i zapisze wynik sortowania na nowo utworzony plik   wynik_porzadkowania.
 // W programie z zadania 2 wymienić funkcję sortowanie na możliwie szybko działającą (np. bubble-sort na merge-sort).
 // Dla oceny szybkości działania programu można zaraz przed rozpoczęciem sortowania umieścić komendę: clock_t  pocz = clock();
-
+// Do funkcji q sort dopisałem parę lini kodu pozwalających na szybkie
+// generowanie tableki w Markdown, cała tabelka znajduje się w pliku qsort.txt
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -64,11 +65,16 @@ void sort_qsort(int *linie)
   qsort(spis, *linie, sizeof(osoba), compare);
   FILE *baza_q = fopen("qsort.txt", "w");
   int i;
+  fprintf(baza_q, "| %20s  | %20s |\n","Imię","Nazwisko");
+  fprintf(baza_q, "|----------------------|----------------------|\n");
+
   for(i = 0; i < *linie; i++)
   {
-    fprintf(baza_q, "%20s ", spis[i].imie);
-    fprintf(baza_q, "%20s ", spis[i].nazwisko);
-    fprintf(baza_q, "%20i\n", spis[i].pensja);
+    fprintf(baza_q, "| %20s |", spis[i].imie);
+    fprintf(baza_q, " %20s |\n", spis[i].nazwisko);
+    // na potrzeby stworzenia tableki z listy
+    // w której nie uwzględniono pensji wyłączyłem jej drukowanie
+    // fprintf(baza_q, "%20i\n", spis[i].pensja);
   }
   fclose(baza_q);
 }

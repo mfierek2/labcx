@@ -64,6 +64,26 @@
     * [x] [zad01.c](lab07/zad01.c) ostrzeżnie -Wwrite-strings
     * [x] [zad2i3.c](lab07/zad2i3.c)
 
+    Część tabelki wygenerowanej za pomocą programu z zad2/3:
+
+    |                Imię  |             Nazwisko |
+    |----------------------|----------------------|
+    |           Cristopher |               Abbott |
+    |              Chester |               Abbott |
+    |              Michale |               Abbott |
+    |               Monroe |               Abbott |
+    |               Vernon |               Abbott |
+    |                Lenna |               Abbott |
+    |               Kallie |               Abbott |
+    |                Orval |               Abbott |
+    |                Urban |               Abbott |
+    |               Emelie |               Abbott |
+    |                Grant |               Abbott |
+    |                  Ora |               Abbott |
+    |               Alycia |               Abbott |
+    |              Wallace |               Abbott |
+    |               Shayna |               Abbott |
+
 1. [Laboratorum 08] (/lab08)
     * [x] [zad01.c](lab08/zad01.c)
     * [x] [zad02.c](lab08/zad02.c)
