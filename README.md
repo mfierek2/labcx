@@ -11,6 +11,12 @@
 
 *Do zadań z php wrzucam tylko kod php, bez html cały projekt strony można zobaczyć tu : [link](https://github.com/mfierek2/phplab)*
 
+*Programy na zaliczenie:*
+ 1. [Zadanie 2 Laboratoria 5](lab05/zad02.c)
+ 2. [Zadanie 4 Laboratoria 15](lab15/zad4.c)
+ 3. [Zadanie 1 Laboratoria 10](lab10/zad01.php) + [Strona](http://sigma.ug.edu.pl/~mfierek/zadania.html)
+
+
 1. [Laboratorium 01]  (/lab01):
 
  	* [x] [zad01.c](lab01/zad01.c)
