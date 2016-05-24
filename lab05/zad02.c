@@ -52,7 +52,7 @@ void  utworz_spis(char *nazwa) {
 }
 
 //=======================================================
-
+// do qsort
 int compare(const void *s1, const void *s2, void *arg)
   {
     osoba *o1 = (osoba *)s1;
@@ -76,6 +76,15 @@ int compare(const void *s1, const void *s2, void *arg)
     return 2;
 }
 // powyzsza funkcja generuje bez instrukcji return 2; ostrzerzenie -Wreturn-type
+// do besearch
+int b_compare ( const void *a, const void *b )
+{
+  osoba *osoba_a, *osoba_b;
+  osoba_a = (osoba *) a;
+  osoba_b = (osoba *) b;
+  return strcmp (osoba_a -> nazwisko, osoba_b -> nazwisko );
+}
+
 //=======================================================
 
 
@@ -106,13 +115,14 @@ void spis_do_pliku() {
 int  znajdz_nazwisko (char *na, char *im, int *p)
 {
   // bsearch (&na, spis.nazwisko, sizeof(spis.nazwisko),  )
-	for(int i = 0; i < IL_OSOB; ++i){
-		if(strcmp( spis[i].nazwisko, na) == 0){
-		strcpy( im, spis[i].imie );
-		*p = spis[i].pensja;
-		return 1;
-		}
-	}
+  osoba *a = (osoba*)bsearch(na, spis, IL_OSOB, sizeof(osoba),b_compare);
+  if (a)
+    {
+      strcpy (im, a -> imie);
+      *p = a -> pensja;
+      return 1;
+    }
+  else
 	return 0;
 }
 
